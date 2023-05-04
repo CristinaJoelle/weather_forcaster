@@ -1,0 +1,65 @@
+header {
+  background-image: linear-gradient(to right, lavender, purple);
+  text-align: right;
+  padding-right: 320px;
+}
+
+.container-left {
+  margin-left: 15px;
+}
+
+input {
+  margin-bottom: 5px;
+  width: 240px;
+}
+
+button {
+  border: none;
+  width: 250px;
+  padding: 10px;
+}
+
+#search {
+  background-color: lavender;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+form {
+  border-bottom: solid grey 3px;
+  width: 250px;
+}
+
+.cities {
+  margin-top: 15px;
+}
+#cities {
+  background-color: rgba(229, 229, 229, 0.68);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.container {
+  display: flex;
+  width: auto;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.selected-city {
+  border: solid black 2px;
+  width: 650px;
+  margin-right: 10px;
+}

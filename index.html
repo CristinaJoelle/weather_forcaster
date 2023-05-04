@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's the weather?</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+    
+    <div class="container">
+      <div class="flex-container">
+      <div class="container-left">
+      
+        <form>
+        <h2 class="city-search">Search for a City:</h2>
+        <input
+          type="text"
+          name="city-search"
+          id="city-search"
+          placeholder="Pick a city!"
+        /><br />
+        <button type="submit" class="btn" id="search" oneClick="">
+          Search
+        </button>
+      </form>
+      
+      <div class="cities">
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Atlanta</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Denver</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Seattle</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          San Francisco</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Orlando</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          New York</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Chicago</button
+        ><br />
+        <button type="submit" class="btn" id="cities" oneClick="searchCity">
+          Austin</button
+        ><br />
+      </div>
+      </div>
+      
+      <div class="selected-city container-right">  <div class="container">
+        <div class="flex-container">
+          <div class="left-side" id="weather-conditions">
+            <h2 id="conditions column">Viewing Conditions</h2>
+            <p id="currentDate"></p>
+            <div id="iconDisplay"><img id="weatherIcon" src="" /></div>
+            <p id="currentTemp"></p>
+            <p id="currentVisibility"></p>
+            <p id="currentDescription"></p>
+            <p id="currentClouds"></p>
+          </div></div>
+    </div>
+  </body>
+</html>
